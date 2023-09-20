@@ -17,7 +17,6 @@ platform_scene = ExtResource( 4 )
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
 script = ExtResource( 3 )
-player_path = NodePath("../Player")
 
 [node name="FunZone" parent="." instance=ExtResource( 5 )]
 position = Vector2( 437, -228 )
